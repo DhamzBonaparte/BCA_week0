@@ -1,0 +1,8 @@
+.top_bar{
+    background-color: aqua;
+    color: black;
+}
+.top_bar ul{
+    display:flex;
+    gap:10px;
+}

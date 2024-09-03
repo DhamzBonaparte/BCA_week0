@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
 }
@@ -596,4 +597,604 @@ footer p {
     font-size: 17px;
 }
 
+=======
+* {
+    margin: 0;
+}
+
+.top_bar {
+    background-color: black;
+    color: cyan;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+    padding-right: 100px;
+}
+
+.top_bar .left_elements {
+    gap: 30px;
+}
+
+.top_bar ul {
+    display: flex;
+    gap: 10px;
+}
+
+.top_bar .right_elements a {
+    text-decoration: none;
+    color: cyan;
+}
+
+.top_bar .right_elements a:hover {
+    background-color: black;
+    color: cyan;
+    border: 1px solid black;
+    border-width: 1px;
+    border-radius: 40%;
+}
+
+
+
+nav {
+    background-color: bisque;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contents {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+.nav_bar ul li:hover {
+    border-bottom: 2px solid red;
+    cursor: pointer;
+}
+.nav_bar .menu_bar{
+    font-size: 25px;
+}
+
+.name {
+    align-items: center;
+    padding: 10px 100px;
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+.banner_section {
+    color: wheat;
+    height: 85vh;
+    display: flex;
+    background: url('./back.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    justify-content: center;
+    border-top: 5px solid green;
+    padding-top: 50px;
+}
+
+.left_section h3 span {
+
+    color: blue;
+    text-transform: uppercase;
+}
+
+.left_section p {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.left_section h1 {
+    font-size: 54px;
+    padding: 20px 0;
+}
+
+/* banner start */
+.banner_section {
+
+    height: 85vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid white;
+}
+
+.banner_section .right_section img {
+    height: 350px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.banner_section .left_section h3 {
+    font-size: 27px;
+}
+
+.banner_section .left_section h3 span {
+    color: aqua;
+    text-transform: uppercase;
+}
+
+.banner_section .left_section h1 {
+    font-size: 45px;
+    padding: 20px 0px;
+}
+
+.banner_section .left_section p {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.banner_section .button {
+    padding-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+.banner_section .left_section .button button {
+    border: 1px solid darkcyan;
+    background-color: blue;
+    font-size: 18px;
+    padding: 20px 30px;
+    color: white;
+    border-radius: 5px;
+}
+
+.banner_section .left_section .button button:hover {
+    background-color: whitesmoke;
+    color: blue;
+    cursor: pointer;
+}
+
+/* banner end */
+/* about section start */
+.about_section {
+    background: url('./HELLO') no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px 100px;
+}
+
+.about_section h2 {
+    text-align: center;
+    font-size: 37px;
+    padding-bottom: 30px;
+    color: black;
+}
+
+.about_container {
+    display: flex;
+    gap: 10%;
+}
+
+.about_container .left_section,
+.about_container .right_section {
+    width: 45%;
+}
+
+.about_container .right_section img {
+    width: 100%;
+    border: 4px solid black;
+    border-radius: 7px;
+
+}
+
+.about_container .left_section p {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.about_container .left_section button {
+    border: none;
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    padding: 12px 25px;
+    font-size: 19px;
+}
+
+.about_container .left_section button:hover {
+    background-color: rgb(29, 56, 189);
+    color: rgb(255, 251, 0);
+    cursor: pointer;
+}
+
+.about_container .right_section img {
+    width: 80%;
+
+    border-radius: 7px;
+}
+
+.resume_section {
+    padding: 50px;
+}
+
+.resume_section h2 {
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 30px;
+    color: black;
+}
+
+.resume_container {
+    display: flex;
+    gap: 4%;
+}
+
+.box {
+    width: 32%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 2%;
+}
+
+.box .card_content {
+    padding: 15px;
+}
+
+.box .card_content h3 {
+    font-size: 25px;
+    color: burlywood;
+}
+
+.box .card_content h5 {
+    font-size: 17px;
+    padding: 7px 0;
+    color: aqua;
+}
+
+.box .card_content p {
+    padding-top: 10px;
+    font-style: italic;
+}
+
+.resume_card .resume_content {
+    padding: 10px;
+    font-style: italic;
+    width: 100%;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.progress_bar {
+    width: 250px;
+    height: 7px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.progress_bar .html {
+    width: 70%;
+    height: 7px;
+    background-color: cyan;
+    border-radius: 10px;
+}
+
+.progress_bar .css {
+    width: 80%;
+    height: 7px;
+    background-color: cyan;
+    border-radius: 10px;
+}
+
+.resume_content h3 {
+    padding: 10px;
+    font-size: 50px;
+
+}
+
+.resume_section .resume_card .resume_content {
+    background-color: blanchedalmond;
+}
+
+.mid_section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
+    color: black;
+    padding: 10px 0;
+    width: 99%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin: 5px;
+}
+
+.mid_section .mid_card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.mid_section .mid_card i {
+    font-size: 36px;
+}
+
+.mid_section .card_content {
+    border-left: 2px solid black;
+    padding: 10px;
+}
+
+.mid_section .card_content h3 {
+    font-size: 30px;
+}
+
+/* service section start */
+.service_section {
+    padding: 20px;
+}
+
+.service_section h2 {
+    font-size: 36px;
+    font-style: italic;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.service_container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.service_container .service_card {
+    height: 100%;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.service_container .service_card .icons {
+    font-size: 60px;
+    display: flex;
+    height: 80px;
+    width: 80px;
+    border: 2px solid burlywood;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.service_section .service_card h3 {
+    padding: 10px 0;
+}
+
+.service_section .service_card p {
+    font-style: italic;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+
+/* service section end */
+/* testimonial section start */
+.testimonial_section {
+    background: url('./jujutsu-kaisen-yuji-5120x2880-9287.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    justify-content: center;
+    background-color: bisque;
+    padding: 50px 100px;
+}
+
+.testimonial_section h2 {
+    padding: 10px;
+    font-size: 50px;
+    font-style: italic;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.testimonial_section .testimonial_container img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.testimonial_section p {
+    padding: 20px;
+    font-size: 18px;
+    font-style: italic;
+    color: white;
+}
+
+.testimonial_section p i {
+    font-size: 27px;
+    color: yellow;
+}
+
+.testimonial_section h3,
+.testimonial_section h5 {
+    padding: 10px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+/* testimonial section end */
+/* blog section start */
+.blog_section {
+    margin: 10px;
+
+}
+
+.blog_section h2 {
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    padding: 30px;
+}
+
+.blog_container .blog_card img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.blog_container .blog_card {
+    height: 100%;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.category_and_date {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+
+}
+
+.blog_container .category {
+
+    border-radius: 10px;
+    background-color: aqua;
+    color: red;
+    padding: 3px 10px;
+}
+
+.category_and_date .date {
+    gap: 10px;
+}
+
+.blog_section .writing h5 {
+    font-size: 17px;
+    font-style: italic;
+}
+
+.blog_section .writing p {
+    padding: 10px 10px;
+}
+
+.blog_container {
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+}
+
+.blog_section {
+    margin: 10px;
+    padding: 20px 20px;
+}
+
+/* blog section end */
+/* contact section start */
+.contact_section {
+    background-color: black;
+    color: aquamarine;
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.contact_section h2 {
+    font-size: 37px;
+    padding-bottom: 30px;
+    color: aliceblue;
+}
+
+.contact_section .contact_container {
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+.contact_section .left_section,
+.contact_section .right_section {
+    width: 45%;
+    padding: 20px 50px;
+}
+
+.contact_section .icons .icon {
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_section .icons {
+    display: flex;
+    justify-content: center;
+    padding: 20px 30px;
+    gap: 30px;
+}
+
+.contact_section .icons .icon i {
+    font-size: 20px;
+}
+
+.contact_section .icons a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact_section .icons .icon i:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    border-width: 20px;
+    border-radius: 50%;
+
+}
+
+.contact_section .left_section h3 {
+    font-size: 27px;
+}
+
+.contact_section .left_section p {
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+.contact_section .right_section .form_label {
+    margin-top: 5px;
+}
+
+.contact_section .right_section input,
+.contact_section .right_section textarea {
+    width: 100%;
+    border: none;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+}
+
+.contact_section .right_section button {
+    background-color: aquamarine;
+}
+.contact_section .right_section button:hover {
+    background-color: cyan;
+    color:black;
+    cursor:pointer;
+}
+
+/* contact section end */
+/* Footer start */
+footer {
+    background-color: aquamarine;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 17px;
+}
+
+>>>>>>> 8ce18810ee1b98aa860facab56958dcdf5da822a
 /* Footer end */
